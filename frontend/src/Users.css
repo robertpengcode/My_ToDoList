@@ -1,0 +1,19 @@
+.usersList {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem auto;
+    width: 60%;
+}
+
+.userListItem {
+    color: tomato;
+    border: 1px solid gray;
+    margin: 0.5rem;
+    list-style: none;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: lightgray;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+

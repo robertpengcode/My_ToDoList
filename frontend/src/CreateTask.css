@@ -1,0 +1,63 @@
+.createTaskForm {
+    display: flex;
+    flex-direction: column;
+    height: 16vh;
+    margin: 0 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: dodgerblue;
+    padding-bottom: 0.4rem;
+}
+
+.formElement {
+    display: flex;
+    height: 4vh;
+    width: 60%;
+    border-radius: 0.3rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.input {
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.addButton {
+    color: white;
+    background-color: tomato;
+    border: 1px solid yellow;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.select {
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.row2 {
+    width: 32%;
+}
+
+#userSelect {
+    width: 32%;
+    text-align-last: center;
+}
+
+#taskInput {
+    width: 66%;
+}
+
+#catSelect {
+    text-align-last: center;
+}
+
+#addTaskBtn {
+    width: 100%;
+}
